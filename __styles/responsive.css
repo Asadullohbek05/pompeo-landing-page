@@ -1,0 +1,323 @@
+@media screen and (max-width: 1200px) {
+  .header__nav {
+    padding: 0px 80px;
+  }
+  .header__info {
+    padding-left: 80px;
+  }
+
+  .shop__vase__img2 img {
+    margin-right: 100px;
+  }
+  .shop__info2 {
+    width: 50%;
+    height: auto;
+    padding-left: 120px;
+  }
+  .card {
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .shop__vase__img2 img {
+    margin-right: 0px;
+  }
+  .shop__info2 {
+    width: 50%;
+    height: auto;
+    padding-left: 80px;
+  }
+  .shop__info2 p {
+    width: 100%;
+  }
+  .card {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header__body {
+    flex-direction: column;
+  }
+  .header__info {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .header__image {
+    width: 100%;
+    padding-top: 70px;
+  }
+  .header__image img {
+    width: 80%;
+    margin: auto;
+  }
+  .header__info h3 {
+    margin-top: 0px;
+  }
+  .header__nav ul li a {
+    margin-left: 30px;
+  }
+
+  .shop__info p {
+    width: 100%;
+    font-family: "Libre Franklin";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6c6c6c;
+    margin-top: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav {
+    padding: 0px 40px;
+  }
+  .header__nav ul li a {
+    margin-left: 20px;
+  }
+  .about__photos .photo3 {
+    margin: 20px 20px;
+  }
+  .about__paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .about__paragraph__info {
+    width: 100%;
+  }
+  .shop__vase__img2 img {
+    width: 100%;
+    /* margin-top: 80px; */
+  }
+  .shop__info2 {
+    width: 50%;
+    height: auto;
+    padding-left: 50px;
+  }
+  .shop__info2 h2 {
+    margin-top: 70px;
+  }
+  .info {
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+  }
+  .info p {
+    width: 100%;
+    padding: 0px 70px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__nav {
+    flex-direction: column;
+    height: auto;
+  }
+  .header__nav ul {
+    flex-direction: column;
+  }
+  .header__nav ul li a {
+    margin-left: 0px;
+    margin: 15px;
+    text-align: center;
+  }
+
+  .header__nav ul li {
+    border-top: 1px solid #d1bfbf;
+    /* border-bottom: 1px solid #d1bfbf; */
+  }
+  .header__nav ul li a i {
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+
+  .logo {
+    margin: 20px 0px;
+  }
+
+  .header__info h1 {
+    font-size: 40px;
+    padding: 0px 10px;
+  }
+
+  .header__info p {
+    padding: 0px 40px;
+  }
+  .photo1 {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .photo2 {
+    margin: 0;
+    margin-top: 20px;
+  }
+  .photo3 {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .about h1 {
+    width: 100%;
+    font-size: 35px;
+    margin-top: 30px;
+    padding: 0px 20px;
+  }
+  .about__paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .about__paragraph__info h1 {
+    text-align: center;
+    padding: 0px 10px;
+  }
+  .about__paragraph__info {
+    padding: 50px 40px;
+  }
+  .shop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop__vase__img2 {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .shop__info2 {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+
+  .shop__info2 h2 {
+    margin-top: 30px;
+  }
+  .shop__info2 p {
+    margin-top: 20px;
+    padding-right: 0px;
+    padding: 0px 20px;
+  }
+  .shop__info2 a {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .shop__vase__img {
+    text-align: center;
+    width: 100%;
+
+    padding-top: 30px;
+  }
+
+  .shop__info {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .shop__info h2 {
+    margin-top: 30px;
+  }
+  .shop__info p {
+    margin-top: 20px;
+    padding-right: 0px;
+    padding: 0px 20px;
+  }
+  .shop__info a {
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  .info {
+    padding: 80px 0px 80px 0px;
+  }
+  .info p {
+    padding: 0px 50px;
+  }
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .footer__info p {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__image img {
+    width: 100%;
+    margin: auto;
+  }
+  .photo1 {
+    width: 100%;
+  }
+  .photo2 {
+    width: 100%;
+  }
+  .photo3 {
+    width: 100%;
+  }
+  .about h1 {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 0px 10px;
+  }
+
+  .about__paragraph__info h1 {
+    font-size: 30px;
+  }
+  .shop__vase__img2 img {
+    margin-top: 0px;
+  }
+  .cards__card {
+    width: 100%;
+  }
+  .form input {
+    width: 60%;
+    padding-left: 10px;
+  }
+  .form button {
+    width: 40%;
+    height: 38px;
+    border: none;
+    font-size: 13px;
+  }
+  .footer p {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about h1 {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 0px 10px;
+  }
+  .form input::placeholder {
+    font-size: 17px;
+  }
+  .form input {
+    padding-left: 0px;
+  }
+}

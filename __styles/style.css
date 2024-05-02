@@ -1,0 +1,757 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.sayt {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/* header start  */
+
+.header {
+  width: 100%;
+  height: auto;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  box-shadow: 1px 1px 3px 0px #0000000d;
+  padding: 0px 120px;
+}
+
+@font-face {
+  font-family: Pasifico;
+  src: url(../fonts/Pasifico/Pacifico-Regular.ttf);
+}
+
+.header__nav .logo {
+  display: block;
+  font-family: Pasifico;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__nav ul {
+  display: flex;
+}
+
+.header__nav ul li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+.header__nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ac1313;
+  margin-left: 40px;
+}
+
+.header__nav ul li a i {
+  margin: 0px 5px;
+}
+
+.header__body {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background: url(../__images/bg-img.png) center center / cover;
+  padding: 73px 0px;
+}
+
+.header__info {
+  width: 50%;
+  height: auto;
+  padding-left: 120px;
+}
+.header__image {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+.header__image img {
+  width: 100%;
+}
+
+.header__info h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d77474;
+  margin-top: 40px;
+}
+
+.header__info h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+  margin-top: 12px;
+}
+
+@font-face {
+  font-family: "Libre Franklin";
+  src: url(../fonts/Libre_Franklin/LibreFranklin-Medium.ttf);
+}
+
+.header__info p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+  margin-top: 14px;
+}
+
+.header__info button {
+  height: 62px;
+  width: 201px;
+  background-color: #ac1313;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+/* header end  */
+
+/* About start  */
+.about {
+  width: 100%;
+  height: auto;
+}
+
+.about__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d77474;
+  margin-top: 50px;
+}
+
+.about h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin-top: 30px;
+}
+
+@font-face {
+  font-family: Playfair Display;
+  src: url(../fonts/Playfair/PlayfairDisplay-Medium.ttf);
+}
+
+.about h1 font {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: #ac1313;
+  padding: 5px;
+}
+
+.about__photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+
+.about__photos .photo1 {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../__images/img.png) center center / cover;
+  margin: 50px 20px;
+}
+
+.photo1 img {
+  margin-top: 80px;
+}
+.photo1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.about__photos .photo2 {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../__images/img2.png) center center / cover;
+  margin: 50px 20px;
+}
+
+.photo2 img {
+  margin-top: 80px;
+}
+.photo2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about__photos .photo3 {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: url(../__images/img3.png) center center / cover;
+  margin: 50px 20px;
+}
+
+.photo3 img {
+  margin-top: 80px;
+}
+.photo3 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about__paragraph {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.about__paragraph__info {
+  width: 50%;
+  height: auto;
+  padding: 50px 80px;
+}
+
+.about__paragraph__info h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 36px;
+  color: #000000;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.about__paragraph__info p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 20px;
+}
+/* About end  */
+
+/* shop start  */
+.shop {
+  display: flex;
+  width: 100%;
+  height: auto;
+  /* border: 2px solid black; */
+}
+
+.shop2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.shop__vase__img {
+  text-align: center;
+  width: 50%;
+  height: auto;
+  padding-top: 30px;
+}
+.shop__vase__img2 {
+  text-align: center;
+  width: 50%;
+  height: auto;
+}
+
+.shop__vase__img2 img {
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.shop__info {
+  width: 50%;
+  height: auto;
+}
+
+.shop__info2 {
+  width: 50%;
+  height: auto;
+  padding-left: 200px;
+}
+
+.shop__info h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  margin-top: 170px;
+}
+.shop__info2 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+  margin-top: 140px;
+}
+
+.shop__info p {
+  width: 400px;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 20px;
+}
+.shop__info2 p {
+  width: 400px;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6c6c6c;
+  margin-top: 20px;
+}
+
+.shop__info a {
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.shop__info2 a {
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* shop end  */
+
+/* Cards start  */
+.cards {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.cards__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d77474;
+  margin-top: 100px;
+}
+.cards__heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  padding: 10px 70px;
+}
+
+.cards__card {
+  width: 300px;
+  height: auto;
+  border-bottom: 1px solid #dbdbdb;
+  margin: 10px 10px;
+  padding-bottom: 10px;
+}
+.cards__card img {
+  width: 100%;
+}
+
+.card__name {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+  margin-top: 10px;
+}
+
+.card__price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.cards button {
+  height: 62px;
+  width: 201px;
+  background-color: #ac1313;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 40px;
+}
+/* Cards End  */
+
+/* Info start */
+.info {
+  width: 100%;
+  height: auto;
+  background: url(../__images/info-bg.png) center center / cover;
+  padding: 100px 0px 100px 150px;
+}
+
+.info h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d77474;
+}
+
+.info h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+  margin: 10px 0px;
+}
+
+.info p {
+  width: 500px;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c6c;
+}
+.info p font {
+  color: #ac1313;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #ac1313;
+}
+
+.info button {
+  height: 62px;
+  width: 201px;
+  background-color: #ac1313;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 30px;
+}
+/* Info End  */
+
+/* Contact start  */
+.contact {
+  width: 100%;
+  height: auto;
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.contact h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d77474;
+  margin-top: 20px;
+}
+@font-face {
+  font-family: Poppins-medium;
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+.contact h1 {
+  font-family: Poppins-medium;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.contact h1 font {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: #ac1313;
+  padding: 3px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  height: 40px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.form input {
+  width: 70%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.form button {
+  width: 30%;
+  height: 38px;
+  border: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  cursor: pointer;
+}
+
+.contact p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #a1a1a1;
+  margin-top: 30px;
+}
+
+.contact p input {
+  margin: 0px 5px;
+}
+/* Contact end  */
+
+/* Footer start  */
+.footer {
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+  background: rgba(219, 219, 219, 0.1);
+}
+
+.footer h1 {
+  font-family: Pasifico;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 40px;
+  color: #000000;
+  text-align: center;
+}
+
+.footer p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #6c6c6c;
+  margin-top: 20px;
+}
+
+.footer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.footer__card {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0px 30px;
+}
+
+.footer__card i {
+  font-size: 30px;
+  margin-top: 20px;
+  color: #666666;
+}
+
+.footer__card h6 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #6c6c6c;
+  margin-top: 5px;
+}
+
+.footer__card h5 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #6c6c6c;
+  margin-top: 20px;
+}
+
+.footer__info {
+  width: 100%;
+  height: auto;
+  border: 2px solid #e5e5e5;
+  background: rgba(219, 219, 219, 0.1);
+  margin-top: 30px;
+}
+
+.footer__info p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #6c6c6c;
+  margin: 25px 0px;
+}
+
+.footer__info p font {
+  color: black;
+}
+/* Footer end  */
